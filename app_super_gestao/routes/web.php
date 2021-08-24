@@ -21,10 +21,11 @@ Route::get('/sobre-nos',[\App\Http\Controllers\SobreNosController::class,'SobreN
 
 // nome, categoria, assunto, mensagem
 
-Route::get('/contato/{nome?}/{categoria?}/{assunto?}/{mensagem?}', 
-function(string $nome = 'Desconhecido', 
-string $categoria = 'Opcional', 
-string $assunto = 'Contato', 
-string $mensagem = 'Mensagem não informada') {
-    echo "Estamos aqui: $nome - $categoria - $assunto - $mensagem";
-});
+Route::get('/contato/{nome}/{categoria_id}',
+function(   
+    string $nome = 'Desconhecido', 
+    int $categoria_id = 1 // 1 - 'Informação'
+) {
+    echo "Estamos aqui: $nome - $categoria_id";
+}
+)->where('categoria_id','[0-9]+')->where('nome', '[A-Za-z]+');
