@@ -1,0 +1,19 @@
+//Configurar os pacotes
+composer config -g repo.packagist composer https://packagist.org
+
+//Configurar os protocolos
+composer config -g github-protocols https ssh
+
+//Instalação via Composer
+composer create-project --prefer-dist laravel/laravel projeto1_versos
+
+cd projeto1_versos
+cd public
+php -S localhost:8000
+
+//Instalação via Installer
+composer global require laravel/installer
+
+laravel --version
+
+//
