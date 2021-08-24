@@ -2,7 +2,7 @@
 
 # Laravel
 
-- [ ] Routes
+- [x] Routes
 - [ ] Controllers
 - [ ] Views
 - [ ] Forms
