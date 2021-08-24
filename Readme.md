@@ -1,4 +1,4 @@
-![laravel](C:\Users\cassia\Documents\My Projects\Laravel\laravel.jpeg)
+# [![laravel.jpeg](https://github.com/kakanew/LARAVEL/blob/master/laravel.jpeg?raw=true)](https://github.com/kakanew/LARAVEL/blob/master/laravel.jpeg)
 
 # Laravel
 
@@ -19,7 +19,7 @@
 
 ## Projects
 
-- [ ] App Super Gestão ~ PHP 8.0
+- [ ] App Super Gestão ~ [PHP 8.0](https://www.php.net/releases/8.0/en.php)
 - [ ] Controle de Tarefas
 - [ ] VueJS
 - [ ] App Locadora
