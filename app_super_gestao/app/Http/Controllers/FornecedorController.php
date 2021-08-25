@@ -20,8 +20,15 @@ class FornecedorController extends Controller
                 'status' => 'S'
                 ]
         ];
+        /*
+        condicao ? se verdade : se falso;
+        condicao ? se verdade : se condicao ? se verdade : se falso;
+        */
+        //echo isset($fornecedores[0]['cnpj']) ? 'CNPJ informado' : 'CNPJ não informado';
+
+        $msg = isset($fornecedores[0]['cnpj']) ? 'CNPJ informado' : 'CNPJ não informado';
+        echo $msg;
 
         return view('app.fornecedor.index', compact('fornecedores'));
-        //return view('app.fornecedor.index');
     }
 }
