@@ -2,27 +2,16 @@
 
 @php
     /*
-    if(empty($variavel)) {} //retorna true se a variavel estiver vazia
-    - ''
-    - 0
-    - 0.0
-    - '0'
-    - null
-    - false
-    - array()
-    - $var
+    $variavel testada não estiver definida (isset)
+    ou
+    $variavel testada possuir o valor null
     */
 @endphp
 
 @isset($fornecedores)
-    Fornecedor: {{ $fornecedores[0]['nome'] }}
+    Fornecedor: {{ $fornecedores[1]['nome'] }}
     <br>
-    Status:  {{ $fornecedores[0]['status'] }}
+    Status:  {{ $fornecedores[1]['status'] }}
     <br>
-    @isset($fornecedores[0]['cnpj'])
-        CNPJ: {{ $fornecedores[0]['cnpj'] }}
-        @empty($fornecedores[0]['cnpj'])
-            - Vazio
-        @endempty
-    @endisset
+    CNPJ: {{ $fornecedores[1]['cnpj'] ?? 'Dado não preenchido'}}
 @endisset
