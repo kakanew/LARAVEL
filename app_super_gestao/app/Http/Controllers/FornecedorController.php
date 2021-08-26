@@ -23,13 +23,15 @@ class FornecedorController extends Controller
                 'ddd' => '31', //BH (MG)
                 'telefone' => '0000-0000'
             ],
-            2=> [
+            2 => [
                 'nome' => 'Fornecedor 3', 
                 'status' => 'S',
                 'ddd' => '21', //Rio de Janeiro (RJ)
                 'telefone' => '0000-0000'
                 ]
         ];
+
+        //$fornecedores = [];
 
         return view('app.fornecedor.index', compact('fornecedores'));
     }
