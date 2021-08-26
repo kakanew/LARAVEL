@@ -1,10 +1,17 @@
-# [![laravel.jpeg](https://github.com/kakanew/LARAVEL/blob/master/laravel.jpeg?raw=true)](https://github.com/kakanew/LARAVEL/blob/master/laravel.jpeg)
+# ![laravel8](C:\Users\cassia\Documents\My Projects\Laravel\laravel8.jpg)
 
 # Laravel
 
 - [x] Routes
-- [ ] Controllers
-- [ ] Views
+- [x] Controllers
+- [x] Views
+- [ ] Models
+- [ ] Migrations
+- [ ] Seeders
+- [ ] Factories
+- [ ] Databases
+- [ ] Tinker
+- [ ] Eloquent ORM
 - [ ] Forms
 - [ ] Middleware
 - [ ] Users
