@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*
+Route::get('/', function () {
+    return 'Olá, seja bem vindo ao curso!';
+});
+*/
 
 Route::get('/',[\App\Http\Controllers\PrincipalController::class,'Principal'])->name('site.index');
 
