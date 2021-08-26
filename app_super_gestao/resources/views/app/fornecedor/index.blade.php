@@ -1,15 +1,13 @@
 <h3>Fornecedor</h3>
 
 @php
-    /*
-    $variavel testada não estiver definida (isset)
-    ou
-    $variavel testada possuir o valor null
-    */
+
+
 @endphp
 
 @isset($fornecedores)
-    @for ($i = 0; isset($fornecedores[$i]); $i++)
+    @php $i = 0 @endphp
+    @while(isset($fornecedores[$i]))
         Fornecedor: {{ $fornecedores[$i]['nome'] }}
         <br>
         Status:  {{ $fornecedores[$i]['status'] }}
@@ -18,12 +16,6 @@
         <br>
         Telefone: ({{ $fornecedores[$i]['ddd'] ?? ''}}) {{ $fornecedores[1]['telefone'] ?? ''}}
         <hr>
-    @endfor
+        @php $i++ @endphp
+    @endwhile
 @endisset
-
-
-{{-- 
-@for ($i = 0; $i < 10; $i++)beu
-    {{$i}}<br>
-@endfor 
- --}}
