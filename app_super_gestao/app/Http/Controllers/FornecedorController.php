@@ -26,7 +26,7 @@ class FornecedorController extends Controller
             2=> [
                 'nome' => 'Fornecedor 3', 
                 'status' => 'S',
-                'ddd' => '', //Rio de Janeiro (RJ)
+                'ddd' => '21', //Rio de Janeiro (RJ)
                 'telefone' => '0000-0000'
                 ]
         ];
