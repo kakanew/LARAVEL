@@ -5,6 +5,11 @@
 - [x] Routes
 - [x] Controllers
 - [x] Views
+- [x] Blades
+- [x] Assets
+- [x] POST
+- [x] GET
+- [x] Component
 - [ ] Models
 - [ ] Migrations
 - [ ] Seeders
