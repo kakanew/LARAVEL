@@ -9,7 +9,7 @@
 - [x] Assets
 - [x] POST
 - [x] GET
-- [x] Component
+- [x] Components
 - [ ] Models
 - [ ] Migrations
 - [ ] Seeders
