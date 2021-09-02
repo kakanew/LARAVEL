@@ -10,7 +10,7 @@
 - [x] POST
 - [x] GET
 - [x] Components
-- [ ] Models
+- [x] Models
 - [ ] Migrations
 - [ ] Seeders
 - [ ] Factories
